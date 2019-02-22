@@ -1,0 +1,42 @@
+2.
+a) program asks for name and prints
+- ask for user name
+- store user name
+- print user name
+
+b) ask for 3 numbers and print average
+- ask for 3 numbers
+- store 3 numbers (num1, num2 and num3)
+- calculate average (num1+num2+num3 / 3)
+- print average
+
+c) ask for radius of circle and prints the radius and perimeter (circumference)
+- ask for radius of circle
+- store radius of circle
+- calculate perimeter (perimeter = 2*Pi*radius)
+- print radius and circumference
+
+d) ask for temperature in farenheit and convert to celcius
+- ask for temperature in farenheit
+- store temperature
+- convert farenheit to celcius ((farenheit temp - 32) * (5/9))
+
+e) ask for time in seconds and print hours, mins and seconds
+- ask for time in seconds
+- store time input
+// hours
+- convert seconds to hours and round down (floor(time/3600))
+- store hours
+- subtract hours from total time (time - hours*3600)
+
+// minutes
+- convert seconds to minutes and round down (floor(time/60))
+- subtract minutes from total time (time - mins*60)
+- store minutes
+
+// seconds
+- set remainder time to seconds (seconds = total time)
+- store seconds
+
+// print
+print hours, minutes and seconds
