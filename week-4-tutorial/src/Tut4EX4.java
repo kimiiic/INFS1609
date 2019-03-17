@@ -4,7 +4,7 @@ PROBLEM
 * if a vowel is detected, use break to stop the print.
 * Assume all input will be lower case
 
-EXAMPLE
+EXAMPLE OUTPUT
 * Enter a string: bcfgrtyhehdsfhsdhf
 * bcfgrtyh
  */

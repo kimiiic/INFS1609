@@ -1,16 +1,17 @@
 /*
-Write a program that asks a user for a number and continually sum and print the result until the user enters "END"
+PROBLEM
+* Write a program that asks a user for a number and continually sum and print the result until the user enters "END"
+*
+* You will need to use an IF statement to check if the input received contains the word "END"
+*
+* You will need to use Integer.valueOf(String s) or Integer.parseInt(String s) to convert a string to an integer value
 
-You will need to use an IF statement to check if the input received contains the word "END"
-
-You will need to use Integer.valueOf(String s) or Integer.parseInt(String s) to convert a string to an integer value
-
-EXAMPLE
-Enter a number: 5
-Sum is now: 5
-Enter a number: 10
-Sum is now: 15
-Enter a number: END
+EXAMPLE OUTPUT
+* Enter a number: 5
+* Sum is now: 5
+* Enter a number: 10
+* Sum is now: 15
+* Enter a number: END
  */
 
 import java.util.Scanner;
