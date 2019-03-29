@@ -7,18 +7,20 @@ public class Tut6EX1{
 
         System.out.print("Please enter array size: ");
         int stringSize = input.nextInt();
+        input.nextLine();
 
         String[] sArray = new String[stringSize];
 
         for(int i = 0; i < stringSize; i++) {
             System.out.println("Enter element " + (i+1) + ":");
-
             sArray[i] = input.nextLine();
-            System.out.println("");
         }
 
         for(int i = 0; i < sArray.length; i++) {
-            System.out.print(i);
+            System.out.print(sArray[i]);
+            if(i+1 != sArray.length) {
+                System.out.print(",");
+            }
         }
     }
 
