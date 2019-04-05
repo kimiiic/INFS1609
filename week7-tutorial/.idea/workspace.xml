@@ -31,12 +31,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="251" />
+          <entry key="java" value="517" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="251" />
+          <entry key="JAVA" value="517" />
         </counts>
       </usages-collector>
     </session>
@@ -55,11 +55,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+            <state relative-caret-position="589">
+              <caret line="42" column="81" selection-start-line="42" selection-start-column="81" selection-end-line="42" selection-end-column="81" />
               <folding>
                 <element signature="e#355#356#0" expanded="true" />
                 <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
                 <element signature="e#464#465#0" expanded="true" />
                 <element signature="e#511#512#0" expanded="true" />
                 <element signature="e#545#546#0" expanded="true" />
@@ -67,8 +68,8 @@
                 <element signature="e#625#626#0" expanded="true" />
                 <element signature="e#676#677#0" expanded="true" />
                 <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="e#1203#1204#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,7 +135,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554469200377" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554469277722" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -160,12 +161,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554468901688</updated>
-      <workItem from="1554468906923" duration="291000" />
+      <workItem from="1554468906923" duration="367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291000" />
+    <option name="totallyTimeSpent" value="367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -216,11 +217,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        <state relative-caret-position="589">
+          <caret line="42" column="81" selection-start-line="42" selection-start-column="81" selection-end-line="42" selection-end-column="81" />
           <folding>
             <element signature="e#355#356#0" expanded="true" />
             <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
             <element signature="e#511#512#0" expanded="true" />
             <element signature="e#545#546#0" expanded="true" />
@@ -228,8 +230,8 @@
             <element signature="e#625#626#0" expanded="true" />
             <element signature="e#676#677#0" expanded="true" />
             <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
           </folding>
         </state>
       </provider>

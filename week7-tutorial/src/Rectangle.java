@@ -25,22 +25,22 @@ public class Rectangle{
         this.width = width;
     }
 
-    // height
-    public double getHeight() {
+    // Height
+    public double getHeight() { // getter for height
         return this.height;
     }
 
-    public void setHeight(double height) {
+    public void setHeight(double height) { // setter for height
         this.height = height;
     }
 
-    // test methods
-    public double getArea() {
+    // Test Methods
+    public double getArea() { // Calculates and returns the area of the rectangle object
         return this.width * this.height;
     }
 
-    public double getPerimeter() {
-        return 2*(this.width + this.height);
+    public double getPerimeter() { // Calculates and returns the perimeter of the rectangle object
+        return 2*(this.width + this.height); // Same as width+width+height+height
     }
 
 }
