@@ -1,25 +1,27 @@
 public class Rectangle{
-    // 2 double data fields with width and height
-    private double width;
-    private double height;
+    // Spec: 2 double data fields
+    private double width; // width
+    private double height; // height
 
-    // Constructors
-    public Rectangle() {
-
+    // CONSTRUCTORS
+    // Default Constructor
+    public Rectangle() { // Creates rectangle of 1x1
+        this.width = 1;
+        this.height = 1;
     }
 
     public Rectangle(double width, double height) {
-        this.width = width;
-        this.height = height;
+        this.width = width; // set attribute width to input width
+        this.height = height; // set attribute height to input height
     }
 
-    // Methods
-    // width
-    public double getWidth() {
+    // METHODS
+    // Width
+    public double getWidth() { // getter for width
         return this.width;
     }
 
-    public void setWidth(double width) {
+    public void setWidth(double width) { // setter for width
         this.width = width;
     }
 
