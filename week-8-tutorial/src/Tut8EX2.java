@@ -3,19 +3,19 @@ import java.util.ArrayList;
 public class Tut8EX2 {
 
     public static void main(String[] args){
-        Animal human = new Animal("human");
-        Dog corgi = new Dog("corgi");
-        Cat persian = new Cat("persian");
+        Animal huMan = new Animal("human");
+        Dog corgiDog = new Dog("corgi");
+        Cat persianCat = new Cat("persian");
 
         // Declare an array list
         ArrayList<Animal> animalArrayList = new ArrayList<>();
 
-        // add your test animal objects here
-        animalArrayList.add(human);
-        animalArrayList.add(corgi);
-        animalArrayList.add(persian);
+        // Add your test animal objects here
+        animalArrayList.add(huMan);
+        animalArrayList.add(corgiDog);
+        animalArrayList.add(persianCat);
 
-        // test makeSound
+        // Test makeSound() Polymorphism
         for (Animal a: animalArrayList){
             a.makeSound();
         }
