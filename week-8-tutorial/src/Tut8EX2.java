@@ -3,11 +3,12 @@ import java.util.ArrayList;
 public class Tut8EX2 {
 
     public static void main(String[] args){
-        Animal huMan = new Animal("human");
-        Dog corgiDog = new Dog("corgi");
-        Cat persianCat = new Cat("persian");
+        Animal huMan = new Animal("hu man");
+        Dog corgiDog = new Dog("corgi dog");
+        Cat persianCat = new Cat("persian cat");
 
         // Declare an array list
+        // Type ArrayList<Animal> box using the ArrayList constructor
         ArrayList<Animal> animalArrayList = new ArrayList<>();
 
         // Add your test animal objects here
