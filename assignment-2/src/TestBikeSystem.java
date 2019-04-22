@@ -15,8 +15,18 @@ public class TestBikeSystem{
         RB|Micahel|Highway|26|15|750|4
          */
 
-        BikeSystem test = new BikeSystem(10);
-        test.insertBike("Bike|Emily|Spinner|14|0|1");
+        BikeSystem sys = new BikeSystem(10);
+
+        sys.insertBike("Bike|Emily|Spinner|14|0|1");
+        sys.insertBike("MTB|Kirstin|Explorer|26|10|200|120");
+        sys.insertBike("RB|Alexander|Roadster|27|12|100|5");
+
+        sys.printSystem();
+        sys.printServiceIntervals();
+        //test.printSystem();
+        //test.printServiceIntervals();
+
+
 		/*
 		Bike a = new Bike("Emily", "Spinner", 14, 2, 1);
 		Bike b = new MountainBike("Kirstin", "Explorer", 26, 10, 200, 120);
@@ -27,9 +37,7 @@ public class TestBikeSystem{
 		Bike g = new Bike("Sharon", "Alley", 24, 5, 20);
 		Bike h = new MountainBike("Susan", "Nomad", 29, 11, 400, 180);
 		Bike i = new RoadBike("Micahel", "Highway", 26, 15, 750, 4);
-		// System.out.println(a.getServiceInterval());
-		//System.out.println(b.toString());
-		
+
 		ArrayList<Bike> biking = new ArrayList<>();
 		
 		biking.add(a);
