@@ -25,6 +25,7 @@ owner, model, serviceInterval
 import java.util.ArrayList;
 
 public class BikeSystem {
+    // ATTRIBUTES
     private static int maxBikes = 0;
     private static ArrayList<Bike> bikeList;
 
@@ -41,15 +42,11 @@ public class BikeSystem {
     }
 
     // METHODS
-    // indicates if bike was successfully created
+    // 1. insertBike(): Indicates if the bike was successfully created
     public boolean insertBike(String bikeString) {
         // come in the format:
         // Bike|<owner>|<model>|<wheelDiameter>|<gears>|<kmsRidden>
         String inputArray[] = bikeString.split("\\|");
-        /*
-        for ( String name : inputArray ){
-            System.out.println(name);
-        }*/
 
         String bikeType = inputArray[0];
         String owner = inputArray[1];
@@ -84,41 +81,16 @@ public class BikeSystem {
         return false;
     }
 
-        /*
-        // Request is for a Mountain Bike
-        } else if(bikeType.equals("MTB")) {
-            if(!bikeExists(owner, model) && (bikeShop.size()+1 <= maxBikes)) {
-            // Insert it into the 'system', hashmap
-                int suspensionDepth = Integer.parseInt(inputArray[6]);
-                MountainBike mtb = new MountainBike(owner, model, wheelDiameter, gears, kmsRidden, suspensionDepth);
-                bikeList.add(mtb);
-                return true;
-            }
-
-        // Request is for a RoadBike
-        } else if(bikeType.equals("RB")) {
-            if(!bikeExists(owner, model) && (bikeShop.size()+1 <= maxBikes))  {
-            // Insert it into the 'system', hashmap
-                int reflectorsFitted = Integer.parseInt(inputArray[6]);
-                RoadBike rb = new RoadBike(owner, model, wheelDiameter, gears, kmsRidden, reflectorsFitted);
-                bikeList.add(rb);
-                return true;
-            }
-        } /*
-
-        // ELSE it's not a bike
-        return false; // Object can't be created
-     */
-
     // Returns whether or not a bike exists
     public boolean bikeExists(String owner, String model) {
-        /*
-        if(bikeShop.containsKey(owner)) { // Checks if the owner key exists in the HashMap
-            if(model == bikeShop.get("owner")) { // Access the key and check if the model is the same
-                return true; // If they're the same, then the bike exists
+        // Goes through all the current bikes in the bikeList ArrayList
+        for(Bike bike: bikeList) {
+            if (bike.getOwner().equals(owner) && bike.getModel().equals(model)) { // Checks if the owner and model match
+                System.out.println("NOPE, exists already");
+                return true; // If any match perfectly, then the bike DOES exist
             }
-        }*/
-        return false; // Else it doesn't exist
+        }
+        return false; // else return false, because it doesn't exist
     }
 
     // This should call the toString() method of each object
@@ -128,17 +100,18 @@ public class BikeSystem {
         }
     }
 
+    // Clears the current bikeList
     public void closeShop() {
         // Empties the bikeShop
-        bikeList.clear();
-        //bikeShop.clear(); // Restore it to an empty state
+        bikeList.clear(); // Restores the list to an empty state
     }
 
+    // Prints the service interval calculation of the object
     public void printServiceIntervals() {
         for(Bike bike: bikeList) {
+            // Format: owner, model, serviceInterval
             System.out.println(bike.getOwner() + ", " + bike.getModel() + ", " + bike.getServiceInterval());
         }
-
-        // owner, model, serviceInterval
     }
+
 }
